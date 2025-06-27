@@ -1,0 +1,122 @@
+{
+    "name": "YouTube Music Downloader",
+    "version": "2.0.0",
+    "description": "Enhanced YouTube music and video downloader using yt-dlp with comprehensive error handling, logging, and interactive interface",
+    "main": "downloader.py",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/youtube-music-downloader.git"
+    },
+    "keywords": [
+        "youtube",
+        "downloader",
+        "music",
+        "video",
+        "yt-dlp",
+        "audio",
+        "mp3",
+        "mp4",
+        "playlist",
+        "python",
+        "cli",
+        "terminal"
+    ],
+    "author": {
+        "name": "Your Name",
+        "email": "your.email@example.com",
+        "url": "https://github.com/yourusername"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/yourusername/youtube-music-downloader",
+    "bugs": {
+        "url": "https://github.com/yourusername/youtube-music-downloader/issues"
+    },
+    "engines": {
+        "python": ">=3.8"
+    },
+    "scripts": {
+        "install": "make install",
+        "run": "make run",
+        "check": "make check",
+        "test": "make test",
+        "clean": "make clean",
+        "update": "make update"
+    },
+    "dependencies": {
+        "yt-dlp": ">=2024.12.13",
+        "rich": ">=13.7.0"
+    },
+    "devDependencies": {
+        "black": ">=23.0.0",
+        "flake8": ">=6.0.0",
+        "pytest": ">=7.0.0"
+    },
+    "features": [
+        "Interactive CLI with Rich interface",
+        "Support for 1000+ websites via yt-dlp",
+        "Audio and video downloads",
+        "Playlist and channel support",
+        "Automatic metadata embedding",
+        "Progress tracking",
+        "Error handling and logging",
+        "Configurable quality settings",
+        "Virtual environment support",
+        "Cross-platform compatibility"
+    ],
+    "supported_formats": {
+        "audio": [
+            "mp3",
+            "aac",
+            "flac",
+            "ogg",
+            "wav",
+            "m4a",
+            "opus"
+        ],
+        "video": [
+            "mp4",
+            "webm",
+            "mkv",
+            "avi",
+            "mov"
+        ]
+    },
+    "supported_sites": [
+        "YouTube",
+        "YouTube Music",
+        "SoundCloud",
+        "Vimeo",
+        "Dailymotion",
+        "And 1000+ more via yt-dlp"
+    ],
+    "platform": {
+        "os": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "arch": [
+            "x86_64",
+            "arm64"
+        ]
+    },
+    "contributing": {
+        "guidelines": "CONTRIBUTING.md",
+        "code_of_conduct": "Be respectful, inclusive, and collaborative",
+        "development_setup": "make install && make dev-install"
+    },
+    "changelog": "CHANGELOG.md",
+    "documentation": {
+        "readme": "README.md",
+        "api": "API documentation in code comments",
+        "examples": "README.md#usage"
+    },
+    "quality": {
+        "code_style": "Black formatter",
+        "linting": "flake8",
+        "testing": "pytest",
+        "ci_cd": "GitHub Actions"
+    },
+    "created": "2024-12-27",
+    "updated": "2024-12-27"
+}
