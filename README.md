@@ -1,6 +1,5 @@
 # 🎵 YouTube Music Downloader
 
-[![CI/CD Pipeline](https://github.com/yourusername/youtube-music-downloader/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/youtube-music-downloader/actions/workflows/ci.yml)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![yt-dlp](https://img.shields.io/badge/powered%20by-yt--dlp-red.svg)](https://github.com/yt-dlp/yt-dlp)
@@ -140,7 +139,7 @@ After running, your directory will look like:
 ```
 youtube/
 ├── downloader.py          # Enhanced main script
-├── requirements.txt       # Python dependencies  
+├── requirements.txt       # Python dependencies
 ├── config.json           # Configuration file
 ├── check_system.py       # System check utility
 ├── run.sh                # Unix launch script
@@ -193,7 +192,7 @@ youtube/
 ### Artist/Title Extraction
 The script intelligently extracts artist and song names from video titles using patterns:
 - `Artist - Title`
-- `Artist | Title`  
+- `Artist | Title`
 - `Artist : Title`
 - `Artist – Title`
 
@@ -356,7 +355,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 ### Ways to Contribute
 
 - 🐛 **Report bugs** - Help us identify and fix issues
-- ✨ **Suggest features** - Share ideas for improvements  
+- ✨ **Suggest features** - Share ideas for improvements
 - 📚 **Improve documentation** - Help others understand the project
 - 🧪 **Add tests** - Improve code reliability
 - 💻 **Submit code** - Fix bugs or implement features
