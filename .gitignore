@@ -128,6 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Cookies files (contain session tokens — never commit)
+*-cookies.txt
+
 # Project specific ignores
 downloads/
 logs/
